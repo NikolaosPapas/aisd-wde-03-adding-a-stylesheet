@@ -9,6 +9,7 @@ Learn the basics of HTML structure and CSS styling by creating a simple webpage.
 ## Project Overview
 In this assignment, you will create a basic webpage that outlines a typical day as a web developer. The project will demonstrate how to structure an HTML document and apply basic CSS styling. You will start by creating the HTML file, link a CSS file to style the page, and then break down the CSS into individual components to understand their functions.
 
+
 ## Project Structure
 
 Your project should include the following files and folders:
@@ -108,11 +109,12 @@ Here’s the file structure:
 5. **Test the HTML Structure**
    Before adding any CSS, open your `index.html` file in a browser to see how it looks. It should display plain text without any styling.
 
-   ![Example of unstyled HTML](./assets/images/example2.png){width="400" height="400"}
+  <img src="./assets/images/example2.png" alt="Example of unstyled HTML" width="400" height="400">
 
 
-## Create the CSS File
-Next, open the `styles.css` file in the `BasicCSS` folder and add the following code to style your webpage:
+
+## Now lets add CSS code to style your page
+Open the `styles.css` file in the `BasicCSS` folder and add the following code to style your webpage:
 
 ### Styling the Body
 The first step is to apply a background color and margin to the entire page:
@@ -222,6 +224,9 @@ By completing this project, you’ve learned how to:
 - Structure a basic HTML document.
 - Link an external CSS file to style your webpage.
 - Apply fundamental CSS properties to enhance the appearance of a webpage.
+
+
+
 
 © All rights reserved to ThriveDX
 
