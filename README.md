@@ -117,7 +117,7 @@ Here’s the file structure:
 ## Now lets add CSS code to style your page
 Open the `styles.css` file in the `BasicCSS` folder and add the following code to style your webpage:
 
-### Styling the Body
+1. **Styling the Body**
 The first step is to apply a background color and margin to the entire page:
 
 ```css
@@ -131,7 +131,7 @@ body {
 - The `background-color` property sets the background color of the page to light blue.
 - The `margin` property adds space around the entire page, keeping the content away from the edges of the browser window.
 
-### Styling the Title
+2. **Styling the Title**
 Next, you'll style the main title to make it stand out:
 
 ```css
@@ -149,7 +149,7 @@ Next, you'll style the main title to make it stand out:
 - The `margin-bottom` property adds space below the title to separate it from the following content.
 - The `text-align` property centers the title on the page.
 
-### Styling the Morning Section
+3. **Styling the Morning Section**
 Each section of your webpage will have its own unique style. Let's start with the morning section:
 
 ```css
@@ -167,7 +167,7 @@ Each section of your webpage will have its own unique style. Let's start with th
 - The `padding` property adds space inside the section, keeping the text away from the edges.
 - The `margin-bottom` property adds space below the morning section to separate it from the next section.
 
-### Styling the Afternoon Section
+4. **Styling the Afternoon Section**
 Now, let's style the afternoon section:
 
 ```css
@@ -183,7 +183,7 @@ Now, let's style the afternoon section:
 - The `background-color` property sets the background color of the afternoon section to light green.
 - The `font-size`, `padding`, and `margin-bottom` properties are the same as in the morning section, ensuring consistent spacing and layout.
 
-### Styling the Evening Section
+5. **Styling the Evening Section**
 Finally, style the evening section:
 
 ```css
@@ -198,7 +198,7 @@ Finally, style the evening section:
 - The `background-color` property sets the background color of the evening section to light coral.
 - The `font-size` and `padding` properties are the same as in the previous sections, maintaining consistency.
 
-### Styling All Headers
+6. **Styling All Headers**
 The last step is to style all the `h2` headers in the sections:
 
 ```css
@@ -209,6 +209,8 @@ h2 {
 ```
 
 - The `color` property changes the text color of all `h2` elements to dark red, making them stand out against the background colors of each section.
+
+##
 
 ## Testing Your Project
 
