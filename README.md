@@ -109,7 +109,7 @@ Here’s the file structure:
 5. **Test the HTML Structure**
    Before adding any CSS, open your `index.html` file in a browser to see how it looks. It should display plain text without any styling as seen below.
 
-  <img src="./assets/images/example2.png" alt="Example of unstyled HTML" width="200" height="250">
+  <img src="./assets/images/example2.png" alt="Example of unstyled HTML" width="200" height="350">
 
 
 
