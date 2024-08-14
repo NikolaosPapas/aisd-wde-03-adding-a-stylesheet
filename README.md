@@ -107,10 +107,10 @@ Here’s the file structure:
    - The `<div>` tags create separate sections for different parts of the day (`morning`, `afternoon`, and `evening`), each with a corresponding `<h2>` header and `<p>` paragraph for the content.
 
 5. **Test the HTML Structure**
-   Before adding any CSS, open your `index.html` file in a browser to see how it looks. It should display plain text without any styling as seen below.
+   Before adding any CSS, open your `index.html` file in a browser to see how it looks. It should display plain text without any styling as seen below...
 
 ##
-  <img src="./assets/images/example2.png" alt="Example of unstyled HTML" width="275" height="200">
+  <img src="./assets/images/example2.png" alt="Example of unstyled HTML" width="275" height="220">
 
 ##
 
@@ -227,7 +227,7 @@ By completing this project, you’ve learned how to:
 - Apply fundamental CSS properties to enhance the appearance of a webpage.
 
 
-
+##
 
 © All rights reserved to ThriveDX
 
