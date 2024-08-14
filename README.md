@@ -44,9 +44,13 @@ Here’s the file structure:
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>My Day as a Web Developer</title>
+     <!-- link your CSS here  -->
    </head>
 
    <body>
+
+    <!-- content code goes here  -->
+
    </body>
 
    </html>
@@ -77,7 +81,7 @@ Here’s the file structure:
    Next, you'll add the content that will be displayed on the webpage inside the `<body>` tags.
 
    ```html
-   <body>
+   
      <h1 id="title">My Day as a Web Developer</h1>
 
      <div class="morning">
@@ -94,7 +98,7 @@ Here’s the file structure:
        <h2>Evening Wrap-Up</h2>
        <p>Review the day's work and plan for tomorrow.</p>
      </div>
-   </body>
+ 
    ```
 
    ### Explanation:
