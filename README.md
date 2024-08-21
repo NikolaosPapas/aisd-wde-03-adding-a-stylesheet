@@ -21,7 +21,7 @@ In this assignment, we will work together to create a basic webpage that outline
   - [ ] Inside the `BasicCSS` folder, create a file named `index.html`. This will be your main HTML file.
   - [ ] Also, in the `BasicCSS` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
 
-## 2. **Start with a HTML Boilerplate**
+## 2. **Start with an HTML Boilerplate**
 Now that you have your files set up, start by adding the basic HTML5 boilerplate.
 
   - [ ] Open your currently empty index.html file and add the following code to it.
@@ -93,11 +93,11 @@ Let's take a look at our progress so far.
 - [ ] Before adding any CSS, open your `index.html` file in a browser to see how it looks. It should display plain text without any styling as seen below...
 
 ##
-![The screenshot shows a "My Day as a Web Developer" unstyled page with sections for morning, afternoon, and evening routines. Each section is styled with distinct background colors and centered text.](./assets/images/example2.png")
+![The screenshot shows a "My Day as a Web Developer" unstyled page with sections for morning, afternoon, and evening routines.](./assets/images/example2.png)
 
 ##
 
-Now lets add some "style" to your web page !
+Now let's add some "style" to your web page !
 
 ## 6. **Styling the Body Section**
 The first step is to apply a background color and margin to the entire page:
