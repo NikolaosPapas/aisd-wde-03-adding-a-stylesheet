@@ -1,5 +1,5 @@
 
-# CSS BASICS
+# CSS Style and Linking Basics
 
 ![The screenshot shows a "My Day as a Web Developer" page with sections for morning, afternoon, and evening routines. Each section is styled with distinct background colors and centered text.](./assets/images/example.png)
 
