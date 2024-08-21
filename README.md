@@ -1,85 +1,66 @@
 
-# WDE2 CSS BASICS
+# CSS Style and Linking Basics
 
-![Screenshot of the finished webpage](./assets/images/example.png)
+![The screenshot shows a "My Day as a Web Developer" page with sections for morning, afternoon, and evening routines. Each section is styled with distinct background colors and centered text.](./assets/images/example.png)
 
-### Description
-Learn the basics of HTML structure and CSS styling by creating a simple webpage. You'll build an HTML document, link a CSS file, apply CSS for styling, and see the impact of each styling rule.
-
-## Project Overview
-In this assignment, you will create a basic webpage that outlines a typical day as a web developer. The project will demonstrate how to structure an HTML document and apply basic CSS styling. You will start by creating the HTML file, link a CSS file to style the page, and then break down the CSS into individual components to understand their functions.
-
+## Description
+In this assignment, we will work together to create a basic webpage that outlines a typical day as a web developer. The project will demonstrate how to structure an HTML document and apply basic CSS styling. You will start by creating the HTML file, link a CSS file to style the page, and then break down the CSS into individual components to understand their functions.
 
 ## Project Structure
 
-Your project should include the following files and folders:
-- **index.html**: The main HTML file for the webpage.
-- **styles.css**: The CSS file to style the HTML elements.
-- **BasicCSS**: A folder to store your project files.
-
-Here’s the file structure:
 ```
 /BasicCSS
   index.html
   styles.css
 ```
 
-## Setup Instructions
+# Instructions ✅
 
-1. **Create the Project Folder and Files**
-   - Create a folder named `BasicCSS` to store all your project files.
-   - Inside the `BasicCSS` folder, create a file named `index.html`. This will be your main HTML file.
-   - Also, in the `BasicCSS` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
+## 1. **Create the Project Folder and Files**
+  - [ ] Create a folder named `BasicCSS` to store all your project files.
+  - [ ] Inside the `BasicCSS` folder, create a file named `index.html`. This will be your main HTML file.
+  - [ ] Also, in the `BasicCSS` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
 
-2. **Create the HTML File**  
-   Now that you have your files set up, start by adding content to the `index.html` file.
+## 2. **Start with an HTML Boilerplate**
+Now that you have your files set up, start by adding the basic HTML5 boilerplate.
 
-   ### HTML Boilerplate
-   First, set up the basic structure of an HTML document. This is known as the boilerplate:
+  - [ ] Open your currently empty index.html file and add the following code to it.
 
-   ```html
-   <!DOCTYPE html>
-   <html lang="en">
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Day as a Web Developer</title>
+  <!-- CSS link will go here  -->
+</head>
+<body>
+  <!-- web page code goes here -->
+</body>
+</html>
+```
 
-   <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>My Day as a Web Developer</title>
-     <!-- link your CSS here  -->
-   </head>
+**Explanation:**
+Declares the document as HTML5 and sets up the essential metadata and styles.
 
-   <body>
+## 3. **Linking the CSS File**
+After setting up the HTML boilerplate, the next step is to link your CSS file which is used to apply styling to the HTML elements.
 
-    <!-- content code goes here  -->
-
-   </body>
-
-   </html>
-   ```
-
-   ### Explanation:
-   - The `<!DOCTYPE html>` declaration defines the document type as HTML5.
-   - The `<html lang="en">` tag specifies the language of the document.
-   - The `<head>` section includes metadata like character encoding and viewport settings for responsiveness.
-   - The `<title>` tag sets the title of the webpage, which appears in the browser tab.
-
-3. **Linking the CSS File**
-   After setting up the HTML boilerplate, the next step is to link your CSS file to the HTML document. This allows you to apply styling to the HTML elements.
-
-   You should add the following `<link>` code **under the `<title>` tag but inside the `<head>` section only** of your HTML document:
+  - [ ] Add the following code **under the `<title>` tag but inside the `<head>` of your HTML document:
 
    ```html
    <link rel="stylesheet" href="styles.css">
    ```
 
-   ### Explanation:
-   - The `<link rel="stylesheet" href="styles.css">` tag connects the HTML file to the CSS file.
-   - The `rel="stylesheet"` attribute tells the browser that the linked file is a stylesheet.
-   - The `href="styles.css"` attribute specifies the path to the CSS file. Since the `styles.css` file is located in the same folder (`BasicCSS`) as the `index.html` file, the path is simply `"styles.css"`.
-   - **Important**: Ensure this `<link>` code is placed under the `<title>` tag and within the `<head>` section of your HTML document. This allows the browser to correctly identify and apply the CSS before rendering the body content.
+**Explanation:**
+The CSS link is an HTML tag that connects an external CSS file to an HTML document. 
+ 
 
-4. **Add Content to the Body**
-   Next, you'll add the content that will be displayed on the webpage inside the `<body>` tags.
+## 4. **Add Content to the Body**
+Next, you'll add the content that will be displayed on the webpage inside the `<body>` tags.
+
+- [ ] Add the following code inside the `<body></body>` tags of your HTML document:
 
    ```html
    
@@ -102,23 +83,26 @@ Here’s the file structure:
  
    ```
 
-   ### Explanation:
-   - The `<h1>` tag is used for the main title of the page.
-   - The `<div>` tags create separate sections for different parts of the day (`morning`, `afternoon`, and `evening`), each with a corresponding `<h2>` header and `<p>` paragraph for the content.
+**Explanation:**
+The code inside the <body> tags defines the main content of a web page that users interact with and see on their screens.
 
-5. **Test the HTML Structure**
-   Before adding any CSS, open your `index.html` file in a browser to see how it looks. It should display plain text without any styling as seen below...
+
+## 5. **Test the HTML Structure**
+Let's take a look at our progress so far.
+
+- [ ] Before adding any CSS, open your `index.html` file in a browser to see how it looks. It should display plain text without any styling as seen below...
 
 ##
-  <img src="./assets/images/example2.png" alt="Example of unstyled HTML" width="275" height="220">
+![The screenshot shows a "My Day as a Web Developer" unstyled page with sections for morning, afternoon, and evening routines.](./assets/images/example2.png)
 
 ##
 
-## Now lets add CSS code to style your page
-Open the `styles.css` file in the `BasicCSS` folder and add the following code to style your webpage:
+Now let's add some "style" to your web page !
 
-1. **Styling the Body**
+## 6. **Styling the Body Section**
 The first step is to apply a background color and margin to the entire page:
+
+- [ ] Open the `styles.css` file and add the following code
 
 ```css
 /* Style the body */
@@ -128,11 +112,13 @@ body {
 }
 ```
 
-- The `background-color` property sets the background color of the page to light blue.
-- The `margin` property adds space around the entire page, keeping the content away from the edges of the browser window.
+**Explanation:**
+The background-color property gives the page a light blue background, while the margin property adds space around the entire page.
 
-2. **Styling the Title**
+## 7. **Styling the Title**
 Next, you'll style the main title to make it stand out:
+
+- [ ] Add the following code next in your `styles.css` file
 
 ```css
 /* Change the text color of the title */
@@ -144,13 +130,14 @@ Next, you'll style the main title to make it stand out:
 }
 ```
 
-- The `color` property changes the text color of the title to dark blue.
-- The `font-size` property increases the size of the title text to 36 pixels.
-- The `margin-bottom` property adds space below the title to separate it from the following content.
-- The `text-align` property centers the title on the page.
+**Explanation:**
+Style the main title by changing its text color to dark blue, increasing the font size, adding space below it, and centering it on the page.
 
-3. **Styling the Morning Section**
+## 8. **Styling the Morning Section**
 Each section of your webpage will have its own unique style. Let's start with the morning section:
+
+
+- [ ] Add the following code next in your `styles.css` file
 
 ```css
 /* Style the morning section */
@@ -162,13 +149,13 @@ Each section of your webpage will have its own unique style. Let's start with th
 }
 ```
 
-- The `background-color` property sets the background color of the morning section to light yellow.
-- The `font-size` property sets the text size within this section to 18 pixels.
-- The `padding` property adds space inside the section, keeping the text away from the edges.
-- The `margin-bottom` property adds space below the morning section to separate it from the next section.
+**Explanation:**
+This code sets the morning section's color, font size, and defines the padding and margins for this section.
 
-4. **Styling the Afternoon Section**
+## 9. **Styling the Afternoon Section**
 Now, let's style the afternoon section:
+
+- [ ] Add the following code next in your `styles.css` file
 
 ```css
 /* Style the afternoon section */
@@ -180,11 +167,13 @@ Now, let's style the afternoon section:
 }
 ```
 
-- The `background-color` property sets the background color of the afternoon section to light green.
-- The `font-size`, `padding`, and `margin-bottom` properties are the same as in the morning section, ensuring consistent spacing and layout.
+**Explanation:**
+This code sets the afternoon section's color, font size, and defines the padding and margins for this section.
 
-5. **Styling the Evening Section**
+## 10. **Styling the Evening Section**
 Finally, style the evening section:
+
+- [ ] Add the following code next in your `styles.css` file
 
 ```css
 /* Style the evening section */
@@ -195,11 +184,13 @@ Finally, style the evening section:
 }
 ```
 
-- The `background-color` property sets the background color of the evening section to light coral.
-- The `font-size` and `padding` properties are the same as in the previous sections, maintaining consistency.
+**Explanation:**
+This code sets the evening section's color, font size, and defines the padding and margins for this section.
 
-6. **Styling All Headers**
-The last step is to style all the `h2` headers in the sections:
+## 11. **Styling All Headers**
+The last step is to style all the `h2` headers in all the sections:
+
+- [ ] Add the following code next in your `styles.css` file
 
 ```css
 /* Change the text color for all h2 elements */
@@ -207,8 +198,8 @@ h2 {
     color: darkred;
 }
 ```
-
-- The `color` property changes the text color of all `h2` elements to dark red, making them stand out against the background colors of each section.
+**Explanation:**
+The `color` property changes the text color of all `h2` elements to dark red.
 
 ##
 
@@ -216,7 +207,7 @@ h2 {
 
 After completing the HTML and CSS files, save them and refresh your browser to see the styled webpage. You should notice the background colors, text alignments, and other styles applied.
 
-### Things to test:
+### Suggested things to test:
 - Ensure that the `h1` title is centered and in dark blue.
 - Check that each section (`morning`, `afternoon`, `evening`) has the correct background color.
 - Verify that the `h2` headers are dark red.
@@ -228,8 +219,16 @@ By completing this project, you’ve learned how to:
 - Link an external CSS file to style your webpage.
 - Apply fundamental CSS properties to enhance the appearance of a webpage.
 
-
 ##
+
+### Solution codebase 👀
+🛑 **Only use this as a reference** 🛑
+
+💾 **Not something to copy and paste** 💾
+
+**Note:**  This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-wde-03-adding-a-stylesheet/tree/solution) (link not shown).
+
+---
 
 © All rights reserved to ThriveDX
 
