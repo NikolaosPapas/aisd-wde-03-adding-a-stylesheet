@@ -4,7 +4,7 @@
 ![The screenshot shows a "My Day as a Web Developer" page with sections for morning, afternoon, and evening routines. Each section is styled with distinct background colors and centered text.](./assets/images/example.png)
 
 ## Description
-In this assignment, we will work together to create a basic webpage that outlines a typical day as a web developer. The project will demonstrate how to structure an HTML document and apply basic CSS styling. You will start by creating the HTML file, link a CSS file to style the page, and then break down the CSS into individual components to understand their functions.
+In this assignment, you will create a basic webpage that outlines a typical day as a web developer. The project will demonstrate how to structure an HTML document and apply basic CSS styling. You will start by creating the HTML file, link a CSS file to style the page, and then break down the CSS into individual components to understand their functions.
 
 ## Project Structure
 
@@ -88,7 +88,7 @@ The code inside the <body> tags defines the main content of a web page that user
 
 
 ## 5. **Test the HTML Structure**
-Let's take a look at our progress so far.
+Take a look at your progress so far.
 
 - [ ] Before adding any CSS, open your `index.html` file in a browser to see how it looks. It should display plain text without any styling as seen below...
 
@@ -97,7 +97,7 @@ Let's take a look at our progress so far.
 
 ##
 
-Now let's add some "style" to your web page !
+Now add some "style" to your web page !
 
 ## 6. **Styling the Body Section**
 The first step is to apply a background color and margin to the entire page:
@@ -134,7 +134,7 @@ Next, you'll style the main title to make it stand out:
 Style the main title by changing its text color to dark blue, increasing the font size, adding space below it, and centering it on the page.
 
 ## 8. **Styling the Morning Section**
-Each section of your webpage will have its own unique style. Let's start with the morning section:
+Each section of your webpage will have its own unique style. Start with the morning section:
 
 
 - [ ] Add the following code next in your `styles.css` file
@@ -153,7 +153,7 @@ Each section of your webpage will have its own unique style. Let's start with th
 This code sets the morning section's color, font size, and defines the padding and margins for this section.
 
 ## 9. **Styling the Afternoon Section**
-Now, let's style the afternoon section:
+Now, style the afternoon section:
 
 - [ ] Add the following code next in your `styles.css` file
 
