@@ -1,0 +1,41 @@
+/* Style the body */
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    margin: 20px; /* Add margin around the page */
+}
+
+/* Change the text color of the title */
+#title {
+    color: rgb(8, 20, 255);
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style the morning section */
+.morning {
+    background-color: lightyellow;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style the afternoon section */
+.afternoon {
+    background-color: lightgreen;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style the evening section */
+.evening {
+    background-color: lightcoral;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* Change the text color for all h2 elements */
+h2 {
+    color: darkred;
+}

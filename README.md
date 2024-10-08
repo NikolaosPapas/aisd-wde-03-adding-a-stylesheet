@@ -17,7 +17,7 @@ In this assignment, you will create a basic webpage that outlines a typical day 
 # Instructions ✅
 
 ## 1. **Create the Project Folder and Files**
-  - [ ] Create a folder named `BasicCSS` to store all your project files.
+  - [x] Create a folder named `BasicCSS` to store all your project files.
   - [ ] Inside the `BasicCSS` folder, create a file named `index.html`. This will be your main HTML file.
   - [ ] Also, in the `BasicCSS` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
 
